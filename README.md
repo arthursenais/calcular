@@ -1,5 +1,6 @@
-# calcular
+ calcular
+ -
 projeto pessoal de estudo 
-uso:
-./calcular <numero> <operação> <número>
+# uso:
+./calcular <número> <operação> <número>  
 operações matemáticas disponíveis: +, -, x, /
