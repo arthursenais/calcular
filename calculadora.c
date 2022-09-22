@@ -11,7 +11,7 @@ int main(int argc, char *argv[]){
                 printf("Utilização:\n");
                 printf("%s \t <numero1> <operação> <numero2>\n", argv[0]);
                 printf("\nlista de operações disponíveis:\n");
-                printf("+, -, *, /, ^,\nobs: caso alguma não funcione, utilize-a entre aspas\n");
+                printf("+, -, *, /, ^,r\nobs: caso alguma não funcione, utilize-a entre aspas\n");
                 return -1;
         } else if(argc!=4) {
                 printf("Por favor, utilize 3 argumentos\n");
@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
                         break;
                 case '^': printf("%g %s %g = %g\n",a,argv[2],b,potencia);
                         break;
-                case 'r': printf("%g %s %g = %g\n",a,argv[2],b,raiz);
+                case 'r': printf("%g índice %g = %g\n",a,argv[2],b,raiz);
                 break;
         default:
                 printf("Operação \"%s\" não reconhecida. Utilize \"%s -h\" para ajuda \n",argv[2],argv[0]);
